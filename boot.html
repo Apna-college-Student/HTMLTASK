@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bbot.css">
+</head>
+<body>
+    <div class="container">
+    <h1 >Add Branch</h1>
+    <form action="/submit" method="POST">
+        
+    <label for="company">Company Name</label>
+    <select id="company" name="company" required>
+        <option value="company1"> Select Company</option>
+        <option value="company2">XLICT</option>
+        <option value="company3">SYSTOMAT</option>
+    </select>
+    <br><br>
+
+        <label for="input1">Branch Name</label>
+        <input type="password" placeholder="input1">            
+
+        <label for="input2">Branch Address</label>
+        <input type="password" placeholder="input2">
+    
+        <br><br>
+    <label for="branch">Choose Branch Type:</label>
+    <select id="branch" name="branch" required>
+        <option value="branch1">Select Branch Type</option>
+        <option value="branch2">LUCKNOW</option>
+        <option value="branch3">VARANASI</option>
+    </select>
+
+    <br><br>
+    <label for="status">Choose Status:</label>
+        <select id="status" name="status" required>
+        <option value="active">Select Status</option>
+        <option value="inactive">Inactive</option>
+        <option value="pending">Pending</option>
+    </select>
+    
+    <br><br>
+
+        <button type="submit">Submit</button>
+    
+    </form>
+</div>
+</body>
+</html>
